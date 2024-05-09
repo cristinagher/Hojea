@@ -4,4 +4,17 @@ html {
 body {
   background-color: #111;
   font-family: sans-serif;
+
+  height: 1024px;
+ background-image: url(../../assets/images/landingpage-background.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ 
+ &::after {
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.46);
+  width: 1440px;
+  height: 1024px;
+ }
 }

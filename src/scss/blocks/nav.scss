@@ -1,0 +1,45 @@
+@use '../mixins/pseudo.scss' as *;
+@use '../mixins/hover.scss' as *;
+@use '../mixins/responsive.scss' as *;
+
+
+.items {
+    height: 90px;
+    display: flex;
+  align-items: center;
+    
+  
+
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.39);
+    font-family: "Arimo";
+    font-size: 20px;
+    font-weight: lighter;
+    &::after {
+        content: "";
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.46);
+        width: 1440px;
+        height: 166px;
+        z-index: -1;
+       }
+
+
+}
+
+.logo {
+    padding: 0 62px;
+}
+.account{
+    padding: 0 62px;
+}
+.items {
+    display: flex;
+    gap: 115.33px;
+}
