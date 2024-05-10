@@ -12,34 +12,45 @@
 
 }
 
+
 .header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.39);
-    font-family: "Arimo";
-    font-size: 20px;
-    font-weight: lighter;
+    background-color: rgba(0, 0, 0, 0.70);
     &::after {
         content: "";
         position: absolute;
         background-color: rgba(0, 0, 0, 0.46);
         width: 1440px;
-        height: 166px;
+        height: 1024px;
         z-index: -1;
        }
+}
 
+.sub-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-family: "Ubuntu Sans";
+    font-size: 23px;
+    font-weight: lighter;
+    padding: 24px 62px;
+    width: 1440px;
 
 }
+
 
 .logo {
-    padding: 0 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 73.5px;
+    width: 153px;
 }
-.account{
-    padding: 0 62px;
-}
+
+
 .items {
     display: flex;
     gap: 115.33px;
+    margin-top: 0;
+    margin-bottom: 0;
 }

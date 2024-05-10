@@ -10,11 +10,5 @@ body {
  background-size: cover;
  background-repeat: no-repeat;
  
- &::after {
-  content: "";
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0.46);
-  width: 1440px;
-  height: 1024px;
- }
+
 }

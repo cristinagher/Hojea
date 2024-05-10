@@ -1,1 +1,40 @@
+.web-title {
+    font-family: 'Ubuntu Sans';
+    font-size: 150px;
+    color:white;
+    font-weight: 700;
+    margin: 0;
 
+}
+.web-text {
+    width: 533px;
+    font-family: 'Ubuntu Sans';
+    font-size: 32px;
+    color:white;
+    font-weight: 400;
+    margin: 0;
+}
+.secondary-button {
+    color: white;
+    border: 3px solid #E7EA5A;
+    border-radius: 24px;
+    padding: 16px 32px;
+    font-size: 23px;
+}
+.primary-button {
+    color: black;
+    background-color: #E7EA5A;
+    border-radius: 24px;
+    padding: 16px 32px;
+    font-size: 23px;
+}
+.button-container {
+    display: flex;
+    gap: 32px;
+}
+.landingpage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
