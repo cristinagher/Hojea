@@ -1,0 +1,72 @@
+.cursos {
+    background-image: url(../../assets/images/carrusel-background.jpg);
+    position: absolute;
+    top: 3072px;
+    width: 1440px;
+    height: 1024px;
+    background-size: cover;
+    z-index: -1;
+}
+
+.course-title {
+    font-size: 52px;
+    font-family: 'Ubuntu Sans';
+    font-weight: 600;
+    color: white;
+    width: 495px;
+    margin: 0;
+    margin-bottom: 48px;
+
+}
+
+.course-text {
+    font-size: 26px;
+    font-family: 'Ubuntu Sans';
+    font-weight: 400;
+    color: white;
+    width: 650px;
+    margin: 0;
+    margin-bottom: 48px;
+}
+
+.fecha-compra {
+    font-family: 'Ubuntu Sans';
+    font-size: 16px;
+    font-weight: 400px;
+    color: white;
+}
+.fecha-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:12px;
+}
+
+.price-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:12px;
+}
+.features-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:32px;
+    margin-bottom: 64px;
+}
+.course-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 271.5px;
+    left: 62px;
+}
+.apuntate-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 171px;
+    height: 58px;
+}
