@@ -9,4 +9,21 @@
     backdrop-filter: blur(30px);
     -webkit-backdrop-filter: blur(30px);
     border-radius: 12px;
+    transition: .5s;
+    z-index:100;
+
+    &:hover {
+        background-color: #E7EA5A
+    }
+}
+
+.arrows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    position: absolute;
+    bottom:24px;
+    left: 668px;
+    
 }

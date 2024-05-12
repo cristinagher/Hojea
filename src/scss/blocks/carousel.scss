@@ -7,6 +7,17 @@
 }
 .slide-item{
     background-size: cover;
+
+}
+.slide-item-dark {
+    &::after{
+        content: "";
+        position: absolute;
+        width: 1440px;
+        height: 1024px;
+        background-color: rgba(0, 0, 0, 0.426);
+        z-index: 0;
+    }
 }
 .carousel .slide .slide-item {
     position: absolute;
@@ -118,3 +129,34 @@
     text-align: center;
     width: 179px;
 }
+
+.slide-item:nth-child(1) {
+    z-index: 1;
+}
+
+.slide-item:nth-child(1) .course-title, .slide-item:nth-child(1) .course-text, .slide-item:nth-child(1) .features-container, .slide-item:nth-child(1) .apuntate-container {
+    transform:translateY(50px);
+    filter: blur(20px);
+    opacity: 0;
+    animation: showContent 0.5s 1s linear 1 forwards;
+}
+.slide-item:nth-child(1) .course-title {
+    animation-delay: 1.1s;
+}
+.slide-item:nth-child(1) .course-text {
+    animation-delay: 1.2s
+}
+.slide-item:nth-child(1) .features-container {
+    animation-delay: 1.3s
+}
+.slide-item:nth-child(1) .apuntate-container {
+    animation-delay: 1.4s;
+}
+@keyframes showContent {
+    to{
+        opacity: 1;
+        filter: blur(0);
+        transform: translateY(0);
+    }
+}
+
