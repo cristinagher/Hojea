@@ -101,8 +101,8 @@
       <section class="cursos">
         <div class="carousel">
           <div class="slide">
-            <div class="slide-item" style="background-image: url(./assets/images/curso-1.jpg);">
-              <div class="course-content">
+            <div id="hero-image" class="slide-item" style="background-image: url(./assets/images/curso-1.jpg);">
+              <div class="course-content course-content-1">
                 <p class="course-title">Introducción a la botánica</p>
                 <p class="course-text">Aprende los fundamentos de la botánica en este curso introductorio. Exploraremos la anatomía de las plantas, su clasificación y su importancia en el ecosistema urbano.</p>
                 <div class="features-container">
@@ -121,7 +121,7 @@
               </div>
             </div>
             <div class="slide-item" style="background-image: url(./assets/images/curso-2.jpg);">
-              <div class="course-content">
+              <div class="course-content course-content-2">
                 <p class="course-title">Identificación de plantas nativas</p>
                 <p class="course-text">Descubre las plantas autóctonas de la región y aprende a identificarlas por sus características distintivas. Ideal para amantes de la naturaleza y la jardinería.</p>
                 <div class="features-container">
@@ -140,7 +140,7 @@
               </div>
             </div>
             <div class="slide-item" style="background-image: url(./assets/images/curso-3.jpg);">
-              <div class="course-content">
+              <div class="course-content course-content-3">
                 <p class="course-title">Jardinería ecológica</p>
                 <p class="course-text">Conviértete en un jardinero respetuoso con el medio ambiente. Aprende prácticas de jardinería sostenible, incluyendo el uso de plantas nativas y métodos de riego eficientes.</p>
                 <div class="features-container">
@@ -159,7 +159,7 @@
               </div>
             </div>
             <div class="slide-item" style="background-image: url(./assets/images/curso-4.jpg);">
-              <div class="course-content">
+              <div class="course-content course-content-4">
                 <p class="course-title">Herbolaria urbana</p>
                 <p class="course-text">Descubre las propiedades medicinales de las plantas urbanas y aprende a utilizarlas de manera segura y efectiva. Ideal para aquellos interesados en la medicina natural.</p>
                 <div class="features-container">
@@ -178,7 +178,7 @@
               </div>
             </div>
             <div class="slide-item slide-item-dark" style="background-image: url(./assets/images/curso-5.jpg);">
-              <div class="course-content course-content-dark">
+              <div class="course-content course-content-dark course-content-5">
                 <p class="course-title">Huertos urbanos</p>
                 <p class="course-text">Aprende a cultivar tus propios alimentos en espacios urbanos. Desde la planificación del huerto hasta la cosecha, este curso te brindará las habilidades necesarias para empezar tu propio huerto en casa.</p>
                 <div class="features-container">
@@ -199,24 +199,8 @@
           </div>
 
           <div class="thumbnail">
-            <div class="mini-item" style="background-image: url(./assets/images/curso-1.jpg);">
-              <div class="mini-content">
-                <p class="mini-title">Introducción a la botánica</p>
-                <div class="mini-features-container">
-                  <div class="mini-fecha-container">
-                    <img src="./assets/images/calendar.svg" alt="">
-                    <span class="fecha-compra">15 de junio de 2024</span>
-                  </div>
-                  <div class="mini-price-container">
-                    <img src="./assets/images/carrito.svg" alt="">
-                    <span class="fecha-compra">15€</span>
-                  </div>
-                </div>
-
-              </div>
-
-            </div>
-            <div class="mini-item-2" style="background-image: url(./assets/images/curso-2.jpg);">
+            
+            <div class="mini-item mini-item-2" style="background-image: url(./assets/images/curso-2.jpg);">
               <div class="mini-content">
                 <p class="mini-title-2">Identificación de plantas nativas</p>
                 <div class="mini-features-container">
@@ -276,14 +260,31 @@
                 </div>
               </div>
             </div>
+            <div class="mini-item" style="background-image: url(./assets/images/curso-1.jpg);">
+              <div class="mini-content">
+                <p class="mini-title">Introducción a la botánica</p>
+                <div class="mini-features-container">
+                  <div class="mini-fecha-container">
+                    <img src="./assets/images/calendar.svg" alt="">
+                    <span class="fecha-compra">15 de junio de 2024</span>
+                  </div>
+                  <div class="mini-price-container">
+                    <img src="./assets/images/carrito.svg" alt="">
+                    <span class="fecha-compra">15€</span>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
           </div>
 
           <div class="arrows">
             <div class="arrow-button">
-              <a class="arrow-button" href="#" id="prev"><img src="./assets/images/chevron-left.svg" alt=""></a>
+              <button class="arrow-button" id="prev"><img src="./assets/images/chevron-left.svg" alt=""></button>
             </div>
             <div class="arrow-button">
-              <a class="arrow-button" href="#" id="next"><img src="./assets/images/chevron-right.svg" alt=""></a>
+              <button class="arrow-button" id="next"><img src="./assets/images/chevron-right.svg" alt=""></button>
             </div>
            </div>
 
